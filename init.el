@@ -316,7 +316,9 @@ you should place your code here."
   (setq-default
    indent-tabs-mode nil
    c-basic-offset 4
-  ))
+   )
+  (add-to-list 'auto-mode-alist '("\\.php\\'" . web-mode))
+  )
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
