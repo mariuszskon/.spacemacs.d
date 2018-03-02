@@ -316,7 +316,9 @@ you should place your code here."
   (setq-default
    indent-tabs-mode nil
    c-basic-offset 4
+   c-default-mode "k&r"
    )
+  (c-set-offset 'case-label '+)
   (add-to-list 'auto-mode-alist '("\\.php\\'" . web-mode))
   )
 
